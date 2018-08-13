@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:background="@color/white"
+    android:paddingBottom="15dp"
+    android:focusableInTouchMode="true">
+
+
+
+    <Button
+        android:id="@+id/guess1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:background="@color/white"
+
+        android:text="Guest 1"
+        />
+
+
+    <Button
+        android:id="@+id/guess2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:text="Guest 2"
+        />
+
+    <Button
+        android:id="@+id/guess3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:background="@color/white"
+
+        android:text="Guest 3"
+        />
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/etEmailPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Input your e-mail or phone number"
+        android:inputType="text"
+        android:background="@drawable/bg_edit_text_gray"
+        android:maxLength="30"
+        android:padding="10dp"
+        android:textColor="#0c8383"
+        android:textColorHint="#bbbbbb"
+        android:textSize="17sp"/>
+
+
+
+</LinearLayout>

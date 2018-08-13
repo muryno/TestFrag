@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="36dp"
+        android:weightSum="1"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_height="18dp"
+            android:src="@drawable/profile"
+            android:layout_width="18dp" />
+
+        <TextView
+            android:id="@+id/joiny_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+            android:paddingBottom="25dp"
+            android:text="@string/joiny"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            android:textSize="65sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-2dp"
+            android:hint="Telephone number"
+            android:inputType="phone"
+            android:maxLength="30"
+            android:padding="10dp"
+            android:textColor="#0c8383"
+            android:textColorHint="#bbbbbb"
+            android:textSize="17sp"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-2dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLength="30"
+            android:padding="10dp"
+            android:textColor="#0c8383"
+            android:textColorHint="#bbbbbb"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/bnSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

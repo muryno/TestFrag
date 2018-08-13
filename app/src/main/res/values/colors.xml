@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+
+    <color name="md_bottom_sheet_title_color">#FF4081</color>
+
+    <color name="grayTextColor">#484848</color>
+    <color name="dashboard">#4A4A4A</color>
+    <color name="md_bottom_sheet_text_color">#305f7c</color>
+
+    <color name="gws_color_material_grey_500">#9E9E9E</color>
+    <color name="scout_blue_dashboard">#204b66</color>
+    <color name="grey_200">#dfdada</color>
+    <color name="grey_400">#9E9E9E</color>
+    <color name="grey_500">#DBD8D9</color>
+
+    <color name="bg_login_button">#38030b</color>
+</resources>

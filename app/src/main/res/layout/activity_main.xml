@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingBottom="15dp"
+    android:focusableInTouchMode="true">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/letter"
+        android:layout_height="50dp"
+        android:src="@drawable/profile"
+        android:layout_width="60dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/twPassInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:text="We just need your registred Email or Phone number to send you password reset instructions"
+        />
+
+    <EditText
+        android:id="@+id/etEmailPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Input your e-mail or phone number"
+        android:inputType="text"
+        android:maxLength="30"
+        android:padding="10dp"
+        android:textColor="#0c8383"
+        android:textColorHint="#bbbbbb"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/bnRestorePass"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="send"
+        android:onClick="multi"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textSize="17sp" />
+</LinearLayout>
